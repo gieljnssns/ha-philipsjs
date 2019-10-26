@@ -54,12 +54,12 @@ class PhilipsTV(object):
             if not self.on:
                 self.getSources()
 
-            if not self.on:
-                self.getChannels()
+            #if not self.on:
+                #self.getChannels()
 
             self.getAudiodata()
             self.getSourceId()
-            self.getChannelId()
+            #self.getChannelId()
             self.on = True
             return True
         except ConnectionFailure as err:
