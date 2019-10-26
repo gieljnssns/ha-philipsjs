@@ -7,7 +7,7 @@ def readme():
 
 PACKAGE_NAME = 'ha-philipsjs'
 HERE = os.path.abspath(os.path.dirname(__file__))
-VERSION = '0.0.8'
+VERSION = '0.0.8.1'
 
 PACKAGES = find_packages(exclude=['tests', 'tests.*', 'dist', 'ccu', 'build'])
 
@@ -17,8 +17,8 @@ setup(
         name=PACKAGE_NAME,
         version=VERSION,
         license='MIT License',
-        url='https://github.com/danielperna84/ha-philipsjs',
-        download_url='https://github.com/danielperna84/ha-philipsjs/tarball/'+VERSION,
+        #url='https://github.com/danielperna84/ha-philipsjs',
+        #download_url='https://github.com/danielperna84/ha-philipsjs/tarball/'+VERSION,
         author='Daniel Perna',
         author_email='danielperna84@gmail.com',
         description='jointSPACE API for Home-Assistant',
